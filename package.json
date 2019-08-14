@@ -4,7 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon app.js",
+    "start": "node nodemon app.js",
     "env": "handy-client-env",
     "test": "jest",
     "test:watch": "jest --watchAll",
