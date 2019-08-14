@@ -1,0 +1,23 @@
+{
+    "development": {
+      "username": "nle585u87xjhbswp",
+      "password": "vowec12ou29yjuq1",
+      "database": "kpusroby2fwv8t06",
+      "host": "c584md9egjnm02sk.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
+      "port": 3306,
+      "dialect": "mysql"
+    },
+    "test": {
+      "username": "root",
+      "password": null,
+      "database": "database_test",
+      "host": "127.0.0.1",
+      "port": 3306,
+      "dialect": "mysql"
+    },
+    "production": {
+        "use_env_variable": "JAWSDB_URL",
+        "dialect": "mysql"
+        }
+  }
+  
